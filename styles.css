@@ -1,0 +1,53 @@
+.container-checkbox {
+  margin: 50px auto;
+  width: 790px;
+  height: 71px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3a3939;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.checkbox-button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #f3f6f9;
+  background-color: #3a3939;
+  opacity: 0.3;
+  border: 1px solid #f3f6f9;
+}
+
+.input-checkbox {
+  width: 20px;
+  height: 20px;
+
+  opacity: 0;
+}
+
+.text-checkbox {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+
+  letter-spacing: -0.02em;
+
+  color: #f3f6f9;
+}
+
+.close-button {
+  width: 23px;
+  height: 23px;
+  background: #f3f6f9;
+  opacity: 0.3;
+  background: url(/recources/Vector.png);
+}
