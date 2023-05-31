@@ -1,3 +1,37 @@
+.main-container {
+  margin: 0 auto;
+  width: 930px;
+  height: 986px;
+  background: #232323;
+  border-radius: 20px;
+}
+
+.input-container {
+  padding-top: 80px;
+  padding-left: 70px;
+  display: flex;
+}
+
+.input-button {
+  width: 62px;
+  height: 62px;
+  background: #6532f8;
+}
+
+.input-film {
+  width: 411px;
+  height: 62px;
+  background: #232323;
+  /* opacity: 0.5; */
+  border: none;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  letter-spacing: -0.02em;
+  color: #f3f6f9;
+}
 .container-checkbox {
   margin: 50px auto;
   width: 790px;
@@ -11,6 +45,10 @@
   padding-right: 25px;
 }
 
+.container-checkbox-click {
+  opacity: 0.5;
+}
+
 .checkbox-button {
   width: 20px;
   height: 20px;
@@ -19,7 +57,16 @@
   background-color: #3a3939;
   opacity: 0.3;
   border: 1px solid #f3f6f9;
+  cursor: pointer;
 }
+
+.checkbox-button-click {
+  background-color: #6532f8;
+}
+
+/* .checkbox-button:focus {
+  background-color: #6532f8;
+} */
 
 .input-checkbox {
   width: 20px;
@@ -44,10 +91,16 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   color: #f3f6f9;
 }
 
+.text-checkbox-click {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
 .close-button {
   width: 23px;
   height: 23px;
   background: #f3f6f9;
   opacity: 0.3;
   background: url(/recources/Vector.png);
+  cursor: pointer;
 }
