@@ -32,8 +32,13 @@
   letter-spacing: -0.02em;
   color: #f3f6f9;
 }
-.container-checkbox {
+
+.output-container {
   margin: 50px auto;
+}
+
+.container-checkbox {
+  margin: 0 auto 5px;
   width: 790px;
   height: 71px;
   display: flex;

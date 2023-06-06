@@ -11,24 +11,30 @@
   <body>
     <div class="main-container">
       <div class="input-container">
-        <input class="input-film" type="text" placeholder="добавить фильм" />
-        <button class="input-button"></button>
+        <input
+          class="js-input-film input-film"
+          type="text"
+          placeholder="добавить фильм"
+        />
+        <button class="js-input-button input-button"></button>
       </div>
-      <div class="js-container-checkbox container-checkbox">
-        <div class="checkbox">
-          <button class="js-checkbox-button checkbox-button"></button>
-          <input
-            class="input-checkbox"
-            type="radio"
-            id="scales"
-            name="scales"
-          />
-          <label class="js-text-checkbox text-checkbox" for="scales"
-            >Остров проклятых</label
-          >
-        </div>
+      <div class="js-output-container output-container">
+        <div class="js-container-checkbox container-checkbox">
+          <div class="checkbox">
+            <button class="js-checkbox-button checkbox-button"></button>
+            <input
+              class="input-checkbox"
+              type="radio"
+              id="scales"
+              name="scales"
+            />
+            <label class="js-text-checkbox text-checkbox" for="scales"
+              >Остров проклятых</label
+            >
+          </div>
 
-        <button class="js-close-button close-button"></button>
+          <button class="js-close-button close-button"></button>
+        </div>
       </div>
     </div>
     <script src="index.js"></script>
